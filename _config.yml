@@ -1,3 +1,5 @@
 name: Jason Ash, iOS/Android Developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+theme: jekyll-theme-architect
