@@ -742,7 +742,7 @@ footer {
       height: 180px;
       width: 180px;
       border-radius: 50%;
-      background: url(../img/apple.png);
+      background: url('https://s3.amazonaws.com/website-images-jason-ash/apple.png');
       margin: auto; }
     .about-lock .flip-container {
       -webkit-perspective: 1000;
