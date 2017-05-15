@@ -1,29 +1,62 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+<html>
+
+<head>
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/cv">CV</a></li>
+			<li><a href="/blog">Blog</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+
+		{{ content }}
+
+	</div>
+	<!-- /.container -->
+	<footer>
+		<div class="contactMe">
+		
+			<h3>Reach Me</h3>
+		
+			<ul>
 			
-			{{ content }}
+				<li>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<a href="mailto:jasonwadeash@icloud.com"> Mail </a>
+				</li>
 			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:jasonwadeash@icloud.com">email</a></li>
-	        		<li><a href="https://github.com/ijasonwade">github.com/ijasonwade</a></li>
+				<li>
+					<i class="fa fa-linkedin-square"></i>
+					<a href="https://www.linkedin.com/in/jasonwadeash/">
+                      LinkedIn
+                  </a>
+				</li>
+			
+				<li>
+					<i class="fa fa-facebook-official"></i>
+					<a href="https://www.facebook.com/JasonWadeAsh">
+                      Facebook
+                  </a>
+				</li>
+			
+				<li>
+					<i class="fa fa-twitter"></i>
+					<a href="https://twitter.com/iJasonWade">
+                      Twitter
+                  </a>
+				</li>
 				</ul>
-			</footer>
-		</body>
-	</html>
+			</div>
+	</footer>
+</body>
+
+</html>
