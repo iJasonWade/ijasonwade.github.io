@@ -46,8 +46,8 @@ margin-left: 20px;
 }
 
 .twitter-square:before {
-  content: "../assets/img/twitter-square.png"; }
-  
+  content: url(https://s3.amazonaws.com/website-images-jason-ash/twitter-square.png); }
+
 .flaticon-hosting:before {
 	content: "\e00a";
 }
