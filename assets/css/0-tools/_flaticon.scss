@@ -38,11 +38,15 @@ margin-left: 20px;
 .flaticon-data3:before {
 	content: "\e007";
 }
-.flaticon-facebook3:before {
+
+.facebook-square:before {
+	font-family: FontAwesome;
 	content: "\e008";
 }
-.flaticon-github:before {
-	content: "\e009";
+
+.github-square:before {
+	font-family: FontAwesome;
+  	content: "\f092";
 }
 
 .twitter-square:before {
@@ -55,8 +59,10 @@ margin-left: 20px;
 .flaticon-light61:before {
 	content: "\e00b";
 }
-.flaticon-linkedin:before {
-	content: "\e00c";
+
+.linkedin-square:before {
+  font-family: FontAwesome;
+  content: "\f08c";
 }
 .flaticon-presentation18:before {
 	content: "\e00d";
